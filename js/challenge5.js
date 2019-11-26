@@ -27,7 +27,6 @@ $(document).ready(function(){
 	console.log("here")
 	var imgs = $("img")
 	var msg = "Hover over an image below."
-	// if (look up mouseover) --> dont need if because that event is doing the action
 	for (let i = 0; i < imgs.length; i++) {
 		$(imgs[i]).mouseenter(function(){
 			console.log("mouseenter")
